@@ -1,0 +1,65 @@
+.root {
+    padding: 8px 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.moduleCard {
+    composes: root;
+
+    flex-direction: column;
+    flex: 0 0 100%;
+}
+
+.info {
+    flex: 0 0 75%;
+    padding-right: 15px;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.moduleInfo {
+    composes: info;
+
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.controls {
+    flex: 0 0 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.moduleControls {
+    composes: controls;
+
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.name {
+    font-weight: 500;
+    word-break: break-all;
+    margin-bottom: 8px;
+}
+
+.email {
+    composes: name;
+
+    font-size: 0.66em;
+    color: #8c8c8c;
+    font-weight: 400;
+}
+
+.star {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    line-height: 0;
+}

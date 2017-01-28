@@ -1,0 +1,19 @@
+.root {
+    cursor: pointer;
+    color: #8c8c8c;
+    font-size: 14px;
+    padding: 0;
+    margin-right: 8px;
+    border: none;
+    line-height: 1.3em;
+    background: none;
+    outline: none;
+}
+
+.active {
+    composes: root;
+
+    font-weight: 600;
+    color: #000;
+    cursor: default;
+}

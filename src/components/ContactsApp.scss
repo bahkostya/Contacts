@@ -1,0 +1,22 @@
+.root {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ebebeb;
+    padding: 32px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.logo {
+    margin-bottom: 24px;
+}
